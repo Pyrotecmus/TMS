@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
 
-def donuts():
+#make a graph with quantity and utility
+def quantity_utility():
     product = input("Please enter a product\n")
     quantity = input("Please enter the maximum quantity\n")
     quantity = int(quantity)
@@ -20,4 +21,4 @@ def donuts():
 
 
 if __name__ == '__main__':
-    donuts()
+    quantity_utility()

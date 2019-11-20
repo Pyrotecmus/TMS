@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-
+#parse and display graph
 def parsing():
     with open('data.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
