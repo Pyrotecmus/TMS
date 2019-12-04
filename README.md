@@ -1,9 +1,9 @@
-# TMS
+# Technology and Media School projects
 Project done at Technology and Media School in New York
 
 Assignment 1 :
 run python scrapper.py all/ISO
-example :
+Examples:
 python scrapper USA
 python scrapper JPN
 python scrapper all
@@ -18,7 +18,15 @@ Then fill the inputs with int
 
 Assignment 5 :
 run python currency_pairs.py ISO
+Example:
 python currency_pairs.py USD GBP CAD EUR AUD
+
+Assignment 6:
+run python inflation_graph.py product_id start_year end_year
+start_year and end_year are options, you don't need to put them but if you put one, have to put both
+Examples:
+python inflation_graph.py APU0000701322 2008 2009
+python inflation_graph.py APU0000701322
 
 Assignment 7:
 run python mortgage_payment.py
